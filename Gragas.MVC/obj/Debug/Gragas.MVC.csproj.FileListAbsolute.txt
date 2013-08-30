@@ -62,3 +62,4 @@ C:\Projects\Gragas\Gragas.MVC\bin\sv\Castle.Components.Validator.resources.dll
 C:\Projects\Gragas\Gragas.MVC\bin\MySql.Data.dll
 C:\Projects\Gragas\Gragas.MVC\bin\Castle.ActiveRecord.Web.dll
 C:\Projects\Gragas\Gragas.MVC\bin\Castle.ActiveRecord.Web.xml
+C:\Projects\Gragas\Gragas.MVC\bin\Gragas.MVC.dll.config

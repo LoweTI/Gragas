@@ -30,3 +30,4 @@ C:\Projects\Gragas\Gragas.Model\bin\Debug\ru\Castle.Components.Validator.resourc
 C:\Projects\Gragas\Gragas.Model\bin\Debug\sv\Castle.Components.Validator.resources.dll
 C:\Projects\Gragas\Gragas.Model\obj\Debug\Gragas.Model.dll
 C:\Projects\Gragas\Gragas.Model\obj\Debug\Gragas.Model.pdb
+C:\Projects\Gragas\Gragas.Model\obj\Debug\Gragas.Model.csprojResolveAssemblyReference.cache
