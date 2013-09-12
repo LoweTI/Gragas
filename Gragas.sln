@@ -1,11 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gragas.Model", "Gragas.Model\Gragas.Model.csproj", "{D788FA2D-D180-4E82-840D-CC60C7552F00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gragas.MVC", "Gragas.MVC\Gragas.MVC.csproj", "{8684A124-10FB-4E01-8558-AFCF80CCDC92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gragas.MVC", "Gragas.MVC\Gragas.MVC.csproj", "{0B14CD32-8A92-4FA0-AAED-07F56AD55048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gragas.Tests.Unit", "Gragas.MVC.Tests\Gragas.Tests.Unit.csproj", "{847B67CF-9024-4EE9-9331-0A5690D1EF57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gragas.MVC.Tests", "Gragas.MVC.Tests\Gragas.MVC.Tests.csproj", "{51A68222-1FC9-4B2C-8E8D-97815080E6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gragas.ModelTests", "Gragas.ModelTests\Gragas.ModelTests.csproj", "{3D83FDDF-3726-4B73-916C-6A93CE07D31F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +21,18 @@ Global
 		{D788FA2D-D180-4E82-840D-CC60C7552F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D788FA2D-D180-4E82-840D-CC60C7552F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D788FA2D-D180-4E82-840D-CC60C7552F00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8684A124-10FB-4E01-8558-AFCF80CCDC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8684A124-10FB-4E01-8558-AFCF80CCDC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8684A124-10FB-4E01-8558-AFCF80CCDC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8684A124-10FB-4E01-8558-AFCF80CCDC92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{847B67CF-9024-4EE9-9331-0A5690D1EF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{847B67CF-9024-4EE9-9331-0A5690D1EF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{847B67CF-9024-4EE9-9331-0A5690D1EF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{847B67CF-9024-4EE9-9331-0A5690D1EF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B14CD32-8A92-4FA0-AAED-07F56AD55048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B14CD32-8A92-4FA0-AAED-07F56AD55048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B14CD32-8A92-4FA0-AAED-07F56AD55048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B14CD32-8A92-4FA0-AAED-07F56AD55048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A68222-1FC9-4B2C-8E8D-97815080E6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A68222-1FC9-4B2C-8E8D-97815080E6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A68222-1FC9-4B2C-8E8D-97815080E6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A68222-1FC9-4B2C-8E8D-97815080E6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D83FDDF-3726-4B73-916C-6A93CE07D31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D83FDDF-3726-4B73-916C-6A93CE07D31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D83FDDF-3726-4B73-916C-6A93CE07D31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D83FDDF-3726-4B73-916C-6A93CE07D31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

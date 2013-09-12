@@ -16,7 +16,12 @@ namespace Gragas.Model.Repository
         [Property(Column = "Name")]
         public string Name { get; set; }
 
-
-
+        [Property(Column = "IPAddress")]
+        public string IpAddress { get; set; }
+        
     }
+
+
+    
 }
+ 

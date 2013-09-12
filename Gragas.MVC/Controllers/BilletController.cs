@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +10,13 @@ namespace Gragas.MVC.Controllers
 {
     public class BilletController : Controller
     {
+        //
+        // GET: /Billet/
+        public ActionResult Index()
+        {
+            return View();
+        }
+
         public ActionResult CheckLastDay()
         {
             var dateInitial = DateTime.Now.AddDays(-1).Date;
@@ -25,6 +32,5 @@ namespace Gragas.MVC.Controllers
             ViewBag.DateCheck = dateInitial.ToString("dd/MM/yyyy");
             return View(informations);
         }
-
-    }
+	}
 }

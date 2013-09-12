@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Gragas.Model.Hebara;
+using Gragas.Model.Eagle;
 using Gragas.Model.Manager;
 
 namespace Gragas.MVC.Controllers
 {
-    public class DataBaseController : BaseController
+    public class DataBaseController : Controller
     {
         public ActionResult CreateSchemaUpdate()
         {
@@ -15,5 +17,11 @@ namespace Gragas.MVC.Controllers
             ViewBag.ScriptUpdate = script.Replace("\n", "<br />");
             return View();
         }
+
+        //private ActionResult View()
+        //{
+        //    return View();
+        //    throw new NotImplementedException();
+        //}
     }
 }

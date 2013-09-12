@@ -14,19 +14,20 @@ using Castle.ActiveRecord.Framework.Config;
 
 namespace Gragas.MVC
 {
-    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
-    // visit http://go.microsoft.com/?LinkId=9394801
-
+    // Note: For instructions on enabling IIS7 classic mode, 
+    // visit http://go.microsoft.com/fwlink/?LinkId=301868
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
 
-            WebApiConfig.Register(GlobalConfiguration.Configuration);
+            //IdentityConfig.ConfigureIdentity();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+
 
             Type[] types = {
                                 //Gragas

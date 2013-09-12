@@ -75,6 +75,7 @@
     <Compile Include="Hebara\BilletLegacy.cs" />
     <Compile Include="Hebara\SecondConnection.cs" />
     <Compile Include="Manager\DataBase.cs" />
+    <Compile Include="Ping\Port.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Server.cs" />
   </ItemGroup>
