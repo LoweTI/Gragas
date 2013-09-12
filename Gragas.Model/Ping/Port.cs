@@ -22,7 +22,7 @@ namespace Gragas.Model.Ping
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw new Exception("IP inválido");
