@@ -74,10 +74,13 @@
     <Compile Include="Eagle\ThirdConnection.cs" />
     <Compile Include="Hebara\BilletLegacy.cs" />
     <Compile Include="Hebara\SecondConnection.cs" />
+    <Compile Include="ITcpClient.cs" />
     <Compile Include="Manager\DataBase.cs" />
-    <Compile Include="Ping\Port.cs" />
+    <Compile Include="Service\Port.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Server.cs" />
+    <Compile Include="TcpClientExtensions.cs" />
+    <Compile Include="Validation\Validation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

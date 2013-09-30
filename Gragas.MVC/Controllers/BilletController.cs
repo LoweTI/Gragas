@@ -10,16 +10,11 @@ namespace Gragas.MVC.Controllers
 {
     public class BilletController : Controller
     {
-        //
-        // GET: /Billet/
-        public ActionResult Index()
-        {
-            return View();
-        }
+     
 
         public ActionResult CheckLastDay()
         {
-            var dateInitial = DateTime.Now.AddDays(-1).Date;
+            var dateInitial = DateTime.Now.AddDays(-2).Date;
             var endDate = dateInitial.AddDays(1);
             var informations = new Dictionary<string, int>();
 
