@@ -19,9 +19,15 @@ namespace DidYouFall.ToolBox.Tests
         };
 
         [TestMethod()]
-        public void EmailTest()
+        public void OfflineEmailTest()
         {
             Email.OfflineEmail(server).sendMail();
+        }
+
+        [TestMethod()]
+        public void OnlineEmailTest()
+        {
+            Email.OnlineEmail(server).sendMail();
         }
     }
 }
