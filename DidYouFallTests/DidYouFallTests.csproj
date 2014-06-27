@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Models\Utilities\ServerUtilitiesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolBox\EmailTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DidYouFall\DidYouFall.csproj">

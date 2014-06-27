@@ -7,6 +7,6 @@ namespace DidYouFall.Models
 {
     public class ProjectConfigs
     {
-        public const string ProjectName = "Did You Fall";
+        public const string ProjectName = "Gragas";
     }
 }
